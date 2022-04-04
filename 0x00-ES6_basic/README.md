@@ -56,7 +56,7 @@ This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
   }
   ```
 
-+ [ ] 3. **Parameter defaults**<br/>[3-default-parameter.js](3-default-parameter.js) contains a script that meets the following requirements.
++ [x] 3. **Parameter defaults**<br/>[3-default-parameter.js](3-default-parameter.js) contains a script that meets the following requirements.
   + For the code below, condense the internals of the following function to 1 line - without changing the name of each function/variable.
   ```js
   export default function getSumOfHoods(initialNumber, expansion1989, expansion2019) {
