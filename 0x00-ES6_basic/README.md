@@ -188,7 +188,7 @@ This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
     }
     ```
 
-+ [ ] 12. **Let's create a report object**<br/>[12-createReportObject.js](12-createReportObject.js) contains a script that meets the following requirements.
++ [x] 12. **Let's create a report object**<br/>[12-createReportObject.js](12-createReportObject.js) contains a script that meets the following requirements.
   + Write a function named `createReportObject` whose parameter, `employeesList`, is the return value of the previous function `createEmployeesObject`.
     ```js
     export default function createReportObject(employeesList) {
