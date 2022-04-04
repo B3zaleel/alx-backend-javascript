@@ -208,7 +208,7 @@ This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
     ```
   + This function will return an iterator to go through every employee in every department.
 
-+ [ ] 14. **Iterate through object**<br/>[101-iterateThroughObject.js](101-iterateThroughObject.js) contains a script that meets the following requirements.
++ [x] 14. **Iterate through object**<br/>[101-iterateThroughObject.js](101-iterateThroughObject.js) contains a script that meets the following requirements.
   + Write a function named `iterateThroughObject`. The function’s parameter `reportWithIterator` is the return value from `createIteratorObject`.
     ```js
     export default function iterateThroughObject(reportWithIterator) {
