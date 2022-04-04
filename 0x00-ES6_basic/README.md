@@ -42,7 +42,7 @@ This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
   }
   ```
 
-+ [ ] 2. **Arrow functions**<br/>[2-arrow.js](2-arrow.js) contains a script that meets the following requirements.
++ [x] 2. **Arrow functions**<br/>[2-arrow.js](2-arrow.js) contains a script that meets the following requirements.
   + For the code below, rewrite the following standard function to use ES6's arrow syntax of the function `add`.
   ```js
   export default function getNeighborhoodsList() {
