@@ -136,7 +136,7 @@ This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
   }
   ```
 
-+ [ ] 9. **ES6 method properties**<br/>[9-getFullBudget.js](9-getFullBudget.js) contains a script that meets the following requirements.
++ [x] 9. **ES6 method properties**<br/>[9-getFullBudget.js](9-getFullBudget.js) contains a script that meets the following requirements.
   + For the code below, rewrite `getFullBudgetObject` to use ES6 method properties in the `fullBudget` object.
   ```js
   import getBudgetObject from './7-getBudgetObject.js';
