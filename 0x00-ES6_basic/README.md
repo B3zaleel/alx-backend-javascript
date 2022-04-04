@@ -26,7 +26,7 @@ This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
   }
   ```
 
-+ [ ] 1. **Block Scope**<br/>[1-block-scoped.js](1-block-scoped.js) contains a script that meets the following requirements.
++ [x] 1. **Block Scope**<br/>[1-block-scoped.js](1-block-scoped.js) contains a script that meets the following requirements.
   + For the code below, modify the variables inside the function `taskBlock` so that the variables aren't overwritten inside the conditional block.
   ```js
   export default function taskBlock(trueOrFalse) {
