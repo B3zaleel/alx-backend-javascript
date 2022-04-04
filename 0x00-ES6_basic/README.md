@@ -199,7 +199,7 @@ This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
   + `allEmployees` is a key that maps to an object containing the department name and a list of all the employees in that department. If you’re having trouble, use the spread syntax.
   + The method property receives employeesList and returns the number of departments.
 
-+ [ ] 13. **Iterating through report objects**<br/>[100-createIteratorObject.js](100-createIteratorObject.js) contains a script that meets the following requirements.
++ [x] 13. **Iterating through report objects**<br/>[100-createIteratorObject.js](100-createIteratorObject.js) contains a script that meets the following requirements.
   + Write a function named `createIteratorObject`, that will take into argument a report Object created with the previous function `createReportObject`.
     ```js
     export default function createIteratorObject(report) {
