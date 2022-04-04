@@ -170,7 +170,7 @@ This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
   }
   ```
 
-+ [ ] 11. **Iterator**<br/>[11-createEmployeesObject.js](11-createEmployeesObject.js) contains a script that meets the following requirements.
++ [x] 11. **Iterator**<br/>[11-createEmployeesObject.js](11-createEmployeesObject.js) contains a script that meets the following requirements.
   + Write a function named `createEmployeesObject` that will receive two arguments:
     + `departmentName` (String).
     + `employees` (Array of Strings).
