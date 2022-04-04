@@ -79,7 +79,7 @@ This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
   }
   ```
 
-+ [ ] 5. **The wonders of spread syntax**<br/>[5-spread-operator.js](5-spread-operator.js) contains a script that meets the following requirements.
++ [x] 5. **The wonders of spread syntax**<br/>[5-spread-operator.js](5-spread-operator.js) contains a script that meets the following requirements.
   + For the code below, using spread syntax, concatenate 2 arrays and each character of a string by modifying the function below. The function body should be one line long.
   ```js
   export default function concatArrays(array1, array2, string) {
