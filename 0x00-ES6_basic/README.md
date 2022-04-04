@@ -86,7 +86,7 @@ This project contains tasks for learning the basics of ECMAScript 2015 (ES6).
   }
   ```
 
-+ [ ] 6. **Take advantage of template literals**<br/>[6-string-interpolation.js](6-string-interpolation.js) contains a script that meets the following requirements.
++ [x] 6. **Take advantage of template literals**<br/>[6-string-interpolation.js](6-string-interpolation.js) contains a script that meets the following requirements.
   + For the code below, rewrite the return statement to use a template literal so you can the substitute the variables you’ve defined.
   ```js
   export default function getSanFranciscoDescription() {
