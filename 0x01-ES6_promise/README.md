@@ -61,7 +61,7 @@ This project contains tasks for learning to use Promises in ECMAScript 2015 (ES6
   + When the `denominator` argument is equal to 0, the function should throw a new error with the message `cannot divide by 0`.
   + Otherwise it should return the `numerator` divided by the `denominator`.
 
-+ [ ] 9. **Throw an error**<br/>[9-try.js](9-try.js) contains a script that meets the following requirements.
++ [x] 9. **Throw an error**<br/>[9-try.js](9-try.js) contains a script that meets the following requirements.
   + Export a function named `guardrail` that accepts a function argument called `mathFunction`.
   + The `guardrail` function should create and return an array named `queue`.
   + When the `mathFunction` function is executed, the value returned by the function should be appended to the `queue`. If this function throws an error, the error message should be appended to the `queue`.
