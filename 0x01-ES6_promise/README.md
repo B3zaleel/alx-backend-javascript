@@ -30,7 +30,7 @@ This project contains tasks for learning to use Promises in ECMAScript 2015 (ES6
     ```
   + In the event of an error, log `Signup system offline` to the console.
 
-+ [ ] 4. **Simple promise**<br/>[4-user-promise.js](4-user-promise.js) contains a script that exports a function with the prototype `function signUpUser(firstName, lastName)`, which returns a resolved promise with the object shown below.
++ [x] 4. **Simple promise**<br/>[4-user-promise.js](4-user-promise.js) contains a script that exports a function with the prototype `function signUpUser(firstName, lastName)`, which returns a resolved promise with the object shown below.
   ```js
   {
     firstName: value,
