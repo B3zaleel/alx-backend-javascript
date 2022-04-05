@@ -15,7 +15,7 @@ This project contains tasks for learning to use Promises in ECMAScript 2015 (ES6
     + `false`
       + Reject the promise with an error object with the message `The fake API is not working currently`.
 
-+ [ ] 2. **Catch me if you can!**<br/>[2-then.js](2-then.js) contains a script that exports a function with the prototype `function handleResponseFromAPI(promise)`, which appends three handlers to the `promise` argument.
++ [x] 2. **Catch me if you can!**<br/>[2-then.js](2-then.js) contains a script that exports a function with the prototype `function handleResponseFromAPI(promise)`, which appends three handlers to the `promise` argument.
   + When the Promise resolves, return an object with the following attributes:
     + `status`: `200`,
     + `body`: `'success'`
