@@ -56,7 +56,7 @@ This project contains tasks for learning to use Promises in ECMAScript 2015 (ES6
 
 + [x] 7. **Load balancer**<br/>[7-load_balancer.js](7-load_balancer.js) contains a script that exports a function with the prototype `function loadBalancer(chinaDownload, USDownload)`, which returns the value returned by the promise that resolved the first, where `chinaDownload` and `USDownload` are Promises.
 
-+ [ ] 8. **Throw error / try catch**<br/>[8-try.js](8-try.js) contains a script that meets the following requirements.
++ [x] 8. **Throw error / try catch**<br/>[8-try.js](8-try.js) contains a script that meets the following requirements.
   + Exports a function with the prototype `function divideFunction(numerator, denominator)`, where `numerator` and `denominator` are numbers.
   + When the `denominator` argument is equal to 0, the function should throw a new error with the message `cannot divide by 0`.
   + Otherwise it should return the `numerator` divided by the `denominator`.
