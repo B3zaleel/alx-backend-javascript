@@ -22,7 +22,7 @@ This project contains tasks for learning to use Promises in ECMAScript 2015 (ES6
   + When the Promise rejects, return an empty `Error` object.
   + For every resolution, log `Got a response from the API` to the console.
 
-+ [ ] 3. **Handle multiple successful promises**<br/>[3-all.js](3-all.js) contains a script that meets the following requirements.
++ [x] 3. **Handle multiple successful promises**<br/>[3-all.js](3-all.js) contains a script that meets the following requirements.
   + Import `uploadPhoto` and `createUser` from [utils.js](utils.js).
   + Use the prototype below to collectively resolve all promises and log `body firstName lastName` to the console. The functions in [utils.js](utils.js) return Promises.
     ```js
