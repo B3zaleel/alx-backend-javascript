@@ -67,7 +67,7 @@ This project contains tasks for learning to use Promises in ECMAScript 2015 (ES6
   + When the `mathFunction` function is executed, the value returned by the function should be appended to the `queue`. If this function throws an error, the error message should be appended to the `queue`.
   + In every case, the message `Guardrail was processed` should be added to the queue.
 
-+ [ ] 10. **Await / Async**<br/>[100-await.js](100-await.js) contains a script that meets the following requirements.
++ [x] 10. **Await / Async**<br/>[100-await.js](100-await.js) contains a script that meets the following requirements.
   + Import `uploadPhoto` and `createUser` from [utils.js](utils.js).
   + Export an async function named `asyncUploadUser` that will call the two functions imported above and return an object with the following format:
     ```js
