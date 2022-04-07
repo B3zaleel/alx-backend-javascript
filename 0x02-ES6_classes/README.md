@@ -73,7 +73,7 @@ This project contains tasks for learning to use classes in ECMAScript 2015 (ES6)
   + When the class is cast into a `Number`, it should return the size.
   + When the class is cast into a `String`, it should return the location.
 
-+ [ ] 9. **Hoisting**<br/>[9-hoisting.js](9-hoisting.js) contains a fixed and working copy of the code below:
++ [x] 9. **Hoisting**<br/>[9-hoisting.js](9-hoisting.js) contains a fixed and working copy of the code below:
   ```js
   const class2019 = new HolbertonClass(2019, 'San Francisco');
   const class2020 = new HolbertonClass(2020, 'San Francisco');
