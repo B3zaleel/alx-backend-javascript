@@ -8,7 +8,7 @@ This project contains tasks for learning to use classes in ECMAScript 2015 (ES6)
   + Prototype: `export default class ClassRoom`.
   + It should accept one attribute named `maxStudentsSize` (Number) and assigned to `_maxStudentsSize`.
 
-+ [ ] 1. **Let's make some classrooms**<br/>[1-make_classrooms.js](1-make_classrooms.js) contains a script that meets the following requirements:
++ [x] 1. **Let's make some classrooms**<br/>[1-make_classrooms.js](1-make_classrooms.js) contains a script that meets the following requirements:
   + Import the `ClassRoom` class from [0-classroom.js](0-classroom.js).
   + Export a function named `initializeRooms`. It should return an array of 3 `ClassRoom` objects with the sizes 19, 20, and 34 (in this order).
 
