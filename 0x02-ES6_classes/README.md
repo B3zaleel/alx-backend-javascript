@@ -65,7 +65,7 @@ This project contains tasks for learning to use classes in ECMAScript 2015 (ES6)
   + Each attribute must be stored in an "underscore" attribute version (ex: `name` is stored in `_name`).
   + The default string description of the class should return the airport `code` (example below).
 
-+ [ ] 8. **Primitive - Holberton Class**<br/>[8-hbtn_class.js](8-hbtn_class.js) contains a script that exports a class named `HolbertonClass` with the following requirements:
++ [x] 8. **Primitive - Holberton Class**<br/>[8-hbtn_class.js](8-hbtn_class.js) contains a script that exports a class named `HolbertonClass` with the following requirements:
   + Constructor arguments:
     + `size` (Number).
     + `location` (String).
