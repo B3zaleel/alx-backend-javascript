@@ -29,7 +29,7 @@ This project contains tasks for learning to use classes in ECMAScript 2015 (ES6)
   + Implement a getter and setter for each attribute.
   + Implement a method named `displayFullCurrency` that will return the attributes in the format `name (code)`.
 
-+ [ ] 4. **Pricing**<br/>[4-pricing.js](4-pricing.js) contains a script that meets the following requirements:
++ [x] 4. **Pricing**<br/>[4-pricing.js](4-pricing.js) contains a script that meets the following requirements:
   + Import the class `Currency` from [3-currency.js](3-currency.js).
   + Export a class named `Pricing` that meets the following requirements:
     + Constructor arguments:
