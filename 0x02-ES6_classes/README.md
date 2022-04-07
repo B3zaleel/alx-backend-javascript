@@ -123,7 +123,7 @@ This project contains tasks for learning to use classes in ECMAScript 2015 (ES6)
   export const listOfStudents = [student1, student2, student3, student4, student5];
   ```
 
-+ [ ] 10. **Vroom**<br/>[10-car.js](10-car.js) contains a script that exports a class named `Car` with the following requirements:
++ [x] 10. **Vroom**<br/>[10-car.js](10-car.js) contains a script that exports a class named `Car` with the following requirements:
   + Constructor arguments:
     + `brand` (String).
     + `motor` (String).
