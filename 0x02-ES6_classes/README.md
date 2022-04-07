@@ -21,7 +21,7 @@ This project contains tasks for learning to use classes in ECMAScript 2015 (ES6)
   + Each attribute must be stored in an "underscore" attribute version (ex: `name` is stored in `_name`).
   + Implement a getter and setter for each attribute.
 
-+ [ ] 3. **Methods, static methods, computed methods names..... MONEY**<br/>[3-currency.js](3-currency.js) contains a script that exports a class named `Currency` with the following requirements:
++ [x] 3. **Methods, static methods, computed methods names..... MONEY**<br/>[3-currency.js](3-currency.js) contains a script that exports a class named `Currency` with the following requirements:
   + Constructor arguments:
     + `code` (String).
     + `name` (String).
