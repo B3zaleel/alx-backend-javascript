@@ -48,7 +48,7 @@ This project contains tasks for learning to use classes in ECMAScript 2015 (ES6)
   + Consider this class as an abstract class. And make sure that any class that extends from it should implement a method named `evacuationWarningMessage`.
     + If a class that extends from it does not have a `evacuationWarningMessage` method, throw an error with the message `Class extending Building must override evacuationWarningMessage`.
 
-+ [ ] 6. **Inheritance**<br/>[6-sky_high.js](6-sky_high.js) contains a script that meets the following requirements:
++ [x] 6. **Inheritance**<br/>[6-sky_high.js](6-sky_high.js) contains a script that meets the following requirements:
   + Import `Building` from [4-building.js](4-building.js).
   + Export a class named `SkyHighBuilding` that extends from `Building` and meets the following requirements:
     + Constructor arguments:
