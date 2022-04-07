@@ -4,7 +4,7 @@ This project contains tasks for learning to use classes in ECMAScript 2015 (ES6)
 
 ## Tasks To Complete
 
-+ [ ] 0. **You used to attend a place like this at some point**<br/>[0-classroom.js](0-classroom.js) contains a script that exports a class named `ClassRoom` with the following requirements:
++ [x] 0. **You used to attend a place like this at some point**<br/>[0-classroom.js](0-classroom.js) contains a script that exports a class named `ClassRoom` with the following requirements:
   + Prototype: `export default class ClassRoom`.
   + It should accept one attribute named `maxStudentsSize` (Number) and assigned to `_maxStudentsSize`.
 
