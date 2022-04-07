@@ -131,7 +131,7 @@ This project contains tasks for learning to use classes in ECMAScript 2015 (ES6)
   + Each attribute must be stored in an "underscore" attribute version (ex: `name` is stored in `_name`).
   + Add a method named `cloneCar`. This method should return a new object of the class.
 
-+ [ ] 11. **EVCar**<br/>[100-evcar.js](100-evcar.js) contains a script that meets the following requirements:
++ [x] 11. **EVCar**<br/>[100-evcar.js](100-evcar.js) contains a script that meets the following requirements:
   + Import `Car` from [10-car.js](10-car.js).
   + Export a class named `EVCar` that extends the `Car` class and meets the following requirements:
     + Constructor arguments:
