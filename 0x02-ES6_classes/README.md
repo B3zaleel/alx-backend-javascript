@@ -40,7 +40,7 @@ This project contains tasks for learning to use classes in ECMAScript 2015 (ES6)
     + Implement a method named `displayFullPrice` that returns the attributes in the format `amount currency_name (currency_code)`.
     + Implement a static method named `convertPrice`. It should accept two arguments: `amount` (Number), `conversionRate` (Number). The function should return the amount multiplied by the conversion rate.
 
-+ [ ] 5. **A Building**<br/>[5-building.js](5-building.js) contains a script that exports a class named `Building` with the following requirements:
++ [x] 5. **A Building**<br/>[5-building.js](5-building.js) contains a script that exports a class named `Building` with the following requirements:
   + Constructor arguments:
     + `sqft` (Number).
   + Each attribute must be stored in an "underscore" attribute version (ex: `name` is stored in `_name`).
