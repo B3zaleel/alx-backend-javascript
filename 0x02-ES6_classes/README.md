@@ -58,7 +58,7 @@ This project contains tasks for learning to use classes in ECMAScript 2015 (ES6)
     + Implement a getter for each attribute.
     + Override the method named `evacuationWarningMessage` and return the following string `Evacuate slowly the NUMBER_OF_FLOORS floors`.
 
-+ [ ] 7. **Airport**<br/>[7-airport.js](7-airport.js) contains a script that exports a class named `Airport` with the following requirements:
++ [x] 7. **Airport**<br/>[7-airport.js](7-airport.js) contains a script that exports a class named `Airport` with the following requirements:
   + Constructor arguments:
     + `name` (String).
     + `code` (String).
