@@ -39,7 +39,7 @@ This project contains tasks for learning to manipulate data in ECMAScript 2015 (
     }
     ```
 
-+ [ ] 5. **Typed Arrays**<br/>[5-typed_arrays.js](5-typed_arrays.js) contains a script that exports a function named `createInt8TypedArray` with the following requirements:
++ [x] 5. **Typed Arrays**<br/>[5-typed_arrays.js](5-typed_arrays.js) contains a script that exports a function named `createInt8TypedArray` with the following requirements:
   + Returns a new `ArrayBuffer` with an `Int8` value at a specific position.
   + It should accept three arguments: `length` (Number), `position` (Number), and `value` (Number).
   + If adding the value is not possible the error `Position outside range` should be thrown.
