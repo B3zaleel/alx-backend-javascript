@@ -9,12 +9,19 @@
  */
 export default function cleanSet(set, startString) {
   const parts = [];
+  if (!set || !startString) {
+    return '';
+  }
   set.forEach((value) => {
     if (value.length !== 0 && startString.length === 0) {
       return;
     }
     if (value.startsWith(startString)) {
-      parts.push(value.substring(startString.length));
+      const valueSubStr = value.substring(startString.length);
+
+      if (valueSubStr) {
+        parts.push(valueSubStr);
+      }
     }
   });
   return parts.join('-');
