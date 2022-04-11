@@ -18,7 +18,7 @@ This project contains tasks for learning to manipulate data in ECMAScript 2015 (
   + If the argument is not an array, the function returns an empty array.
   + You must use the map function on the array.
 
-+ [ ] 2. **Filter**<br/>[2-get_students_by_loc.js](2-get_students_by_loc.js) contains a script that exports a function named `getStudentsByLocation` with the following requirements:
++ [x] 2. **Filter**<br/>[2-get_students_by_loc.js](2-get_students_by_loc.js) contains a script that exports a function named `getStudentsByLocation` with the following requirements:
   + Returns an array of objects who are located in a specific city.
   + It should accept a list of students (from `getListStudents`) and a `city` (string) as parameters.
   + You must use the `filter` function on the array.
