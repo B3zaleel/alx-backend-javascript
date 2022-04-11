@@ -48,7 +48,7 @@ This project contains tasks for learning to manipulate data in ECMAScript 2015 (
   + Returns a `Set` from an array.
   + It accepts an argument (Array, of any kind of element).
 
-+ [ ] 7. **More set data structure**<br/>[7-has_array_values.js](7-has_array_values.js) contains a script that exports a function named `hasValuesFromArray` with the following requirements:
++ [x] 7. **More set data structure**<br/>[7-has_array_values.js](7-has_array_values.js) contains a script that exports a function named `hasValuesFromArray` with the following requirements:
   + Returns a boolean if all the elements in the array exist within the set.
   + It accepts two arguments: a `set` (Set) and an `array` (Array).
 
