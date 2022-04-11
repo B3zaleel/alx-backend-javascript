@@ -72,7 +72,7 @@ This project contains tasks for learning to manipulate data in ECMAScript 2015 (
   + It should accept a map as an argument. The map it accepts for argument is similar to the map you create in the previous task.
   + For each entry of the map where the quantity is 1, update the quantity to 100. If updating the quantity is not possible (argument is not a map) the error `Cannot process` should be thrown.
 
-+ [ ] 11. **Weak link data structure**<br/>[100-weak.js](100-weak.js) contains a script that meets the following requirements:
++ [x] 11. **Weak link data structure**<br/>[100-weak.js](100-weak.js) contains a script that meets the following requirements:
   + Export a `const` instance of `WeakMap` and name it `weakMap`.
   + Export a new function named `queryAPI`. It should accept an endpoint argument like so:
     ```js
