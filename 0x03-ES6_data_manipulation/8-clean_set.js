@@ -13,7 +13,7 @@ export default function cleanSet(set, startString) {
     return '';
   }
   for (const value of set.values()) {
-    if (value.startsWith(startString)) {
+    if (value.startsWith(startString) && startString.length !== 0) {
       const valueSubStr = value.substring(startString.length);
 
       if (valueSubStr && valueSubStr !== value) {
