@@ -4,7 +4,7 @@ This project contains tasks for learning to manipulate data in ECMAScript 2015 (
 
 ## Tasks To Complete
 
-+ [ ] 0. **Basic list of objects**<br/>[0-get_list_students.js](0-get_list_students.js) contains a script that exports a function named `getListStudents` with the following requirements:
++ [x] 0. **Basic list of objects**<br/>[0-get_list_students.js](0-get_list_students.js) contains a script that exports a function named `getListStudents` with the following requirements:
   + Returns an array of objects.
   + Each object should have three attributes: `id` (Number), `firstName` (String), and `location` (String).
   + The array contains the following students in the order they're listed:
