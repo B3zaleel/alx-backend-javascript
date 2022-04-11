@@ -52,7 +52,7 @@ This project contains tasks for learning to manipulate data in ECMAScript 2015 (
   + Returns a boolean if all the elements in the array exist within the set.
   + It accepts two arguments: a `set` (Set) and an `array` (Array).
 
-+ [ ] 8. **Clean set**<br/>[8-clean_set.js](8-clean_set.js) contains a script that exports a function named `cleanSet` with the following requirements:
++ [x] 8. **Clean set**<br/>[8-clean_set.js](8-clean_set.js) contains a script that exports a function named `cleanSet` with the following requirements:
   + Returns a string of all the set values that start with a specific string (`startString`).
   + It accepts two arguments: a `set` (Set) and a `startString` (String).
   + When a value starts with `startString` you only append the rest of the string. The string contains all the values of the set separated by `-`.
