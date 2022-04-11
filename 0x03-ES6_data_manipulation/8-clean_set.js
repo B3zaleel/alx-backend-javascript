@@ -9,20 +9,17 @@
  */
 export default function cleanSet(set, startString) {
   const parts = [];
-  if (!set || !startString) {
+  if (!set || !startString || !(set instanceof Set) || typeof startString !== 'string') {
     return '';
   }
-  set.forEach((value) => {
-    if (value.length !== 0 && startString.length === 0) {
-      return;
-    }
+  for (const value of set.values()) {
     if (value.startsWith(startString)) {
       const valueSubStr = value.substring(startString.length);
 
-      if (valueSubStr) {
+      if (valueSubStr && valueSubStr !== value) {
         parts.push(valueSubStr);
       }
     }
-  });
+  }
   return parts.join('-');
 }
