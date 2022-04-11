@@ -57,7 +57,7 @@ This project contains tasks for learning to manipulate data in ECMAScript 2015 (
   + It accepts two arguments: a `set` (Set) and a `startString` (String).
   + When a value starts with `startString` you only append the rest of the string. The string contains all the values of the set separated by `-`.
 
-+ [ ] 9. **Map data structure**<br/>[9-groceries_list.js](9-groceries_list.js) contains a script that exports a function named `groceriesList` with the following requirements:
++ [x] 9. **Map data structure**<br/>[9-groceries_list.js](9-groceries_list.js) contains a script that exports a function named `groceriesList` with the following requirements:
   + Returns a map of groceries with the following items (name, quantity):
     ```cs
     "Apples", 10
