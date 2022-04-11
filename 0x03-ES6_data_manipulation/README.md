@@ -23,7 +23,7 @@ This project contains tasks for learning to manipulate data in ECMAScript 2015 (
   + It should accept a list of students (from `getListStudents`) and a `city` (string) as parameters.
   + You must use the `filter` function on the array.
 
-+ [ ] 3. **Reduce**<br/>[3-get_ids_sum.js](3-get_ids_sum.js) contains a script that exports a function named `getStudentIdsSum` with the following requirements:
++ [x] 3. **Reduce**<br/>[3-get_ids_sum.js](3-get_ids_sum.js) contains a script that exports a function named `getStudentIdsSum` with the following requirements:
   + Returns the sum of all the student ids.
   + It should accept a list of students (from `getListStudents`) as a parameter.
   + You must use the `reduce` function on the array.
