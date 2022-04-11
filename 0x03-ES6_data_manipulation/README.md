@@ -12,7 +12,7 @@ This project contains tasks for learning to manipulate data in ECMAScript 2015 (
     + `James`, id: `2`, in `Columbia`.
     + `Serena`, id: `5`, in `San Francisco`.
 
-+ [ ] 1. **More mapping**<br/>[1-get_list_student_ids.js](1-get_list_student_ids.js) contains a script that exports a function named `getListStudentIds` with the following requirements:
++ [x] 1. **More mapping**<br/>[1-get_list_student_ids.js](1-get_list_student_ids.js) contains a script that exports a function named `getListStudentIds` with the following requirements:
   + Returns an array of ids from a list of object.
   + This function is taking one argument which is an array of objects - and this array is in the same format as the return value of `getListStudents` from the previous task.
   + If the argument is not an array, the function returns an empty array.
