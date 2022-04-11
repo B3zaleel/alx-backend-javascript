@@ -67,7 +67,7 @@ This project contains tasks for learning to manipulate data in ECMAScript 2015 (
     "Banana", 5
     ```
 
-+ [ ] 10. **More map data structure**<br/>[10-update_uniq_items.js](10-update_uniq_items.js) contains a script that exports a function named `updateUniqueItems` with the following requirements:
++ [x] 10. **More map data structure**<br/>[10-update_uniq_items.js](10-update_uniq_items.js) contains a script that exports a function named `updateUniqueItems` with the following requirements:
   + Returns an updated map for all items with initial quantity at 1.
   + It should accept a map as an argument. The map it accepts for argument is similar to the map you create in the previous task.
   + For each entry of the map where the quantity is 1, update the quantity to 100. If updating the quantity is not possible (argument is not a map) the error `Cannot process` should be thrown.
