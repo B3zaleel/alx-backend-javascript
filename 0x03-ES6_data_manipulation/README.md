@@ -44,7 +44,7 @@ This project contains tasks for learning to manipulate data in ECMAScript 2015 (
   + It should accept three arguments: `length` (Number), `position` (Number), and `value` (Number).
   + If adding the value is not possible the error `Position outside range` should be thrown.
 
-+ [ ] 6. **Set data structure**<br/>[6-set.js](6-set.js) contains a script that exports a function named `setFromArray` with the following requirements:
++ [x] 6. **Set data structure**<br/>[6-set.js](6-set.js) contains a script that exports a function named `setFromArray` with the following requirements:
   + Returns a `Set` from an array.
   + It accepts an argument (Array, of any kind of element).
 
