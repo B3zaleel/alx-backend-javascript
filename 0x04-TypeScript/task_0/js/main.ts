@@ -1,4 +1,4 @@
-interface Student {
+export interface Student {
   firstName: string;
   lastName: string;
   age: number;
@@ -59,7 +59,7 @@ const styleSheet = `
  * @param students The list of students to display.
  * @author Bezaleel Olakunori <https://github.com/B3zaleel>
  */
-const displayStudents = (students: Array<Student>): void => {
+export const displayStudents = (students: Array<Student>): void => {
   const table = document.createElement('table');
   const tableHead = document.createElement('thead');
   const headRow = document.createElement('tr');
