@@ -4,7 +4,7 @@ const chunks = [];
 process.stdin.on('print_name', () => {
   let i = 0;
   userName = chunks.join('');
-  process.stdout.write(`Your name is: ${userName}\n`);
+  console.log(`Your name is: ${userName}\n`);
   for (; i < chunks.length; i += 1) {
     chunks.pop();
   }
@@ -14,10 +14,10 @@ process.stdin.on('print_name', () => {
 });
 
 process.stdin.on('close', () => {
-  process.stdout.write('This important software is now closing\n');
+  console.log('This important software is now closing\n');
 });
 
-process.stdout.write('Welcome to Holberton School, what is your name?\n');
+console.log('Welcome to Holberton School, what is your name?\n');
 
 process.stdin.on('readable', () => {
   let chunk;
