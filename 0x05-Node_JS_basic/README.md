@@ -44,7 +44,7 @@ This project contains tasks for learning to the basics of NodeJS.
   + When the URL path is `/students`, it should display `This is the list of our students` followed by the same content as the file [3-read_file_async.js](3-read_file_async.js) (with and without the database) - the name of the database must be passed as argument of the file.
   + CSV file can contain empty lines (at the end) - and they are not a valid student!
 
-+ [ ] 6. **Create a small HTTP server using Express**<br/>[6-http_express.js](6-http_express.js) contains a script that creates and exports a small HTTP server using the Express module with the following requirements:
++ [x] 6. **Create a small HTTP server using Express**<br/>[6-http_express.js](6-http_express.js) contains a script that creates and exports a small HTTP server using the Express module with the following requirements:
   + It should be assigned to the variable `app`, which must be exported.
   + HTTP server should listen on port 1245.
   + Displays `Hello Holberton School!` in the page body for the endpoint `/`.
