@@ -13,7 +13,7 @@ process.stdin.on('print_name', () => {
   }
 });
 
-process.addListener('beforeExit', () => {
+process.stdin.on('end', () => {
   console.log('This important software is now closing');
 });
 
