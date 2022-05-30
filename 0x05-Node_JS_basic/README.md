@@ -57,7 +57,7 @@ This project contains tasks for learning to the basics of NodeJS.
   + When the URL path is `/students`, it should display This is the list of our students followed by the same content as the file [3-read_file_async.js](3-read_file_async.js) (with and without the database) - the name of the database must be passed as argument of the file.
   + CSV file can contain empty lines (at the end) - and they are not a valid student!
 
-+ [ ] 8. **Organize a complex HTTP server using Express**<br />Writing every part of a server within a single file is not sustainable. Create a full server in a directory named [`full_server`](full_server) with the requirements listed below.<br />Since you have used ES6 and Babel in the past projects, let's use `babel-node` to allow to use ES6 functions like `import` or `export`.
++ [x] 8. **Organize a complex HTTP server using Express**<br />Writing every part of a server within a single file is not sustainable. Create a full server in a directory named [`full_server`](full_server) with the requirements listed below.<br />Since you have used ES6 and Babel in the past projects, let's use `babel-node` to allow to use ES6 functions like `import` or `export`.
   + **8.1 Organize the structure of the server**
     + Create 2 directories within the [full_server](full_server) folder:
       + [controllers](full_server/controllers/).
