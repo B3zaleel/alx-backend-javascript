@@ -36,7 +36,7 @@ This project contains tasks for learning to the basics of NodeJS.
   + HTTP server should listen on port 1245.
   + Displays `Hello Holberton School!` in the page body for any endpoint as plain text.
 
-+ [ ] 5. **Create a more complex HTTP server using Node's HTTP module**<br/>[5-http.js](5-http.js) contains a script that creates and exports a small HTTP server using the `http` module with the following requirements:
++ [x] 5. **Create a more complex HTTP server using Node's HTTP module**<br/>[5-http.js](5-http.js) contains a script that creates and exports a small HTTP server using the `http` module with the following requirements:
   + It should be assigned to the variable `app`, which must be exported.
   + HTTP server should listen on port 1245.
   + It should return plain text.
