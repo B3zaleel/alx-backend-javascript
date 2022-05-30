@@ -21,7 +21,7 @@ This project contains tasks for learning to the basics of NodeJS.
   + It should log the number of students in each field, and the list with the following format: `Number of students in FIELD: 6. List: LIST_OF_FIRSTNAMES`.
   + CSV file can contain empty lines (at the end) - and they are not a valid student!
 
-+ [ ] 3. **Reading a file asynchronously with Node JS**<br/>[3-read_file_async.js](3-read_file_async.js) contains a module that exports a function `countStudents` with the following requirements:
++ [x] 3. **Reading a file asynchronously with Node JS**<br/>[3-read_file_async.js](3-read_file_async.js) contains a module that exports a function `countStudents` with the following requirements:
   + Create a function named `countStudents`. It should accept a path in argument (same as in [2-read_file.js](2-read_file.js)).
   + The script should attempt to read the database file asynchronously.
   + The database file has the same format as [database.csv](database.csv).
