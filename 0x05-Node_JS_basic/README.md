@@ -4,7 +4,7 @@ This project contains tasks for learning to the basics of NodeJS.
 
 ## Tasks To Complete
 
-+ [ ] 0. **Executing basic javascript with Node JS**<br/>[0-console.js](0-console.js) contains a module that exports a function named `displayMessage` that prints in `STDOUT` the string argument.
++ [x] 0. **Executing basic javascript with Node JS**<br/>[0-console.js](0-console.js) contains a module that exports a function named `displayMessage` that prints in `STDOUT` the string argument.
 
 + [ ] 1. **Using Process stdin**<br/>[1-stdin.js](1-stdin.js) contains a script that will be executed through the command line with the following requirements:
   + It should display the message `Welcome to Holberton School, what is your name?` (followed by a new line).
