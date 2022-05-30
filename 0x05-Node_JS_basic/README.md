@@ -31,7 +31,7 @@ This project contains tasks for learning to the basics of NodeJS.
   + It should log the number of students in each field, and the list with the following format: `Number of students in FIELD: 6. List: LIST_OF_FIRSTNAMES`.
   + CSV file can contain empty lines (at the end) - and they are not a valid student!
 
-+ [ ] 4. **Create a small HTTP server using Node's HTTP module**<br/>[4-http.js](4-http.js) contains a script that creates and exports a small HTTP server using the `http` module with the following requirements:
++ [x] 4. **Create a small HTTP server using Node's HTTP module**<br/>[4-http.js](4-http.js) contains a script that creates and exports a small HTTP server using the `http` module with the following requirements:
   + It should be assigned to the variable `app`, which must be exported.
   + HTTP server should listen on port 1245.
   + Displays `Hello Holberton School!` in the page body for any endpoint as plain text.
