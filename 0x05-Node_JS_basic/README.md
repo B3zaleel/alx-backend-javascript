@@ -12,7 +12,7 @@ This project contains tasks for learning to the basics of NodeJS.
   + The program should display `Your name is: INPUT`.
   + When the user ends the program, it should display `This important software is now closing` (followed by a new line).
 
-+ [ ] 2. **Reading a file synchronously with Node JS**<br/>[2-read_file.js](2-read_file.js) contains a module that exports a function `countStudents` with the following requirements:
++ [x] 2. **Reading a file synchronously with Node JS**<br/>[2-read_file.js](2-read_file.js) contains a module that exports a function `countStudents` with the following requirements:
   + Create a function named `countStudents`. It should accept a path in argument.
   + The script should attempt to read the database file synchronously.
   + The database file has the same format as [database.csv](database.csv).
