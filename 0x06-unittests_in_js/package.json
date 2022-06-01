@@ -9,7 +9,7 @@
     "lint": "./node_modules/.bin/eslint",
     "lint-all": "./node_modules/.bin/eslint [0-9]*.js",
     "lint-fix-all": "./node_modules/.bin/eslint --fix [0-9]*.js",
-    "test": "./node_modules/mocha/bin/mocha --require babel-register --exit",
+    "test": "node ./node_modules/mocha/bin/mocha --require babel-register --exit",
     "dev": "nodemon --exec babel-node --presets babel-preset-env ./full_server/server.js ./database.csv"
   },
   "dependencies": {
