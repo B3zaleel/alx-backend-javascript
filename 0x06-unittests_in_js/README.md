@@ -299,7 +299,7 @@ This project contains tasks for learning to create unittests in NodeJS.
   + **Modify the file [`api.js`](api.js):**
     + Add a new endpoint: `GET /cart/:id`.
     + `:id` must be only a number (validation must be in the route definition).
-    + When access, the endpoint should return `Payment methods for cart :id`.
+    + When accessed, the endpoint should return `Payment methods for cart :id`.
   + **Modify the file [`api.test.js`](api.test.js):**
     + Add a new test suite for the cart page:
       + Correct status code when `:id` is a number?
