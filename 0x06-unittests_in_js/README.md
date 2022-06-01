@@ -353,7 +353,7 @@ This project contains tasks for learning to create unittests in NodeJS.
     + You should be able to run the test suite using `yarn test 9-api/api.test.js`.
     + Every test should pass without any warning.
 
-+ [ ] 10. **Deep equality & Post integration testing**
++ [x] 10. **Deep equality & Post integration testing**
   + In a folder [`10-api`](10-api/), reusing the previous project in [`9-api`](9-api/) (`package.json`, `api.js` and `api.test.js`).
   + **Modify the file [`api.js`](api.js):**
     + Add an endpoint `GET /available_payments` that returns an object with the following structure:
