@@ -128,7 +128,7 @@ This project contains tasks for learning to create unittests in NodeJS.
     + Spies are really useful and allow you to focus only on what your code is doing and not the downstream APIs or functions.
     + Remember that integration test is different from unit test. Your unit test should test your code, not the code of a different function.
 
-+ [ ] 4. **Stubs**
++ [x] 4. **Stubs**
   + Stubs are similar to spies. Except that you can provide a different implementation of the function you are wrapping. Sinon can be used as well for stubs.
   + **Create a new file [`4-payment.js`](4-payment.js), and copy the code from [`3-payment.js`](3-payment.js) (same content, same behavior).**
   + **Create a new file [`4-payment.test.js`](4-payment.test.js), and copy the code from [`3-payment.test.js`](3-payment.test.js):**
