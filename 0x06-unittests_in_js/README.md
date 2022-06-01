@@ -94,7 +94,7 @@ This project contains tasks for learning to create unittests in NodeJS.
     'Error'
     ```
 
-+ [ ] 2. **Basic test using Chai assertion library**
++ [x] 2. **Basic test using Chai assertion library**
   + While using Node assert library is completely valid, a lot of developers prefer to have a behavior driven development style. This type being easier to read and therefore to maintain.
   + **Let's install Chai with npm:**
     + Copy the file [`1-calcul.js`](1-calcul.js) in a new file [`2-calcul_chai.js`](2-calcul_chai.js) (same content, same behavior).
