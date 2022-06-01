@@ -107,7 +107,7 @@ This project contains tasks for learning to create unittests in NodeJS.
     + You should be able to run the test suite using `npm test 2-calcul_chai.test.js`.
     + Every test should pass without any warning.
 
-+ [ ] 3. **Spies**
++ [x] 3. **Spies**
   + Spies are a useful wrapper that will execute the wrapped function, and log useful information (e.g. was it called, with what arguments). Sinon is a library allowing you to create spies.
   + **Let's install Sinon with npm:**
     + Create a new file named [`utils.js`](utils.js).
