@@ -162,7 +162,7 @@ This project contains tasks for learning to create unittests in NodeJS.
     + You should use only one `spy` to complete this exercise.
     + You should use a `beforeEach` and a `afterEach` hooks to complete this exercise.
 
-+ [ ] 6. **Async tests with done**
++ [x] 6. **Async tests with done**
   + Look into how to support async testing, for example when waiting for the answer of an API or from a Promise.
   + **Create a new file [`6-payment_token.js`](6-payment_token.js):**
     Create a new function named `getPaymentTokenFromAPI`.
