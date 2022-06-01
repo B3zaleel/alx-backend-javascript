@@ -115,8 +115,8 @@ This project contains tasks for learning to create unittests in NodeJS.
     + Create a property named `calculateNumber` and paste your previous code in the function.
     + Export the Utils module.
   + **Create a new file named [`3-payment.js`](3-payment.js):**
-    + Create a new function named `sendPaymentRequestToApi`. The function takes two argument `totalAmount`, and `totalShipping`.
-    The function calls the `Utils.calculateNumber` function with type `SUM`, `totalAmount` as `a`, `totalShipping` as `b` and display in the console the message `The total is: <result of the sum>`.
+    + Create a new function named `sendPaymentRequestToApi`. The function takes two arguments `totalAmount`, and `totalShipping`.
+    The function calls the `Utils.calculateNumber` function with type `SUM`, `totalAmount` as `a`, `totalShipping` as `b`, and displays in the console the message `The total is: <result of the sum>`.
   + **Create a new file named [`3-payment.test.js`](3-payment.test.js) and add a new suite named `sendPaymentRequestToApi`:**
     + By using `sinon.spy`, make sure the math used for `sendPaymentRequestToApi(100, 20)` is the same as `Utils.calculateNumber('SUM', 100, 20)` (validate the usage of the `Utils` function).
   + **Requirements:**
