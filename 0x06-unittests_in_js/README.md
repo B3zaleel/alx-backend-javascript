@@ -178,7 +178,7 @@ This project contains tasks for learning to create unittests in NodeJS.
     + Every test should pass without any warning.
     + You should use the `done` callback to execute this test.
 
-+ [ ] 7. **Skip**
++ [x] 7. **Skip**
   + When you have a long list of tests, and you can't figure out why a test is breaking, avoid commenting out a test, or removing it. **Skip** it instead, and file a ticket to come back to it as soon as possible.
   + You will be using this file, conveniently named [`7-skip.test.js`](7-skip.test.js):
     ```js
