@@ -294,7 +294,7 @@ This project contains tasks for learning to create unittests in NodeJS.
     + You should be able to run the test suite using `yarn test 8-api/api.test.js`.
     + Every test should pass without any warnings.
 
-+ [ ] 9. **Regex integration testing**
++ [x] 9. **Regex integration testing**
   + In a folder [`9-api`](9-api/), reusing the previous project in [`8-api`](8-api/) (`package.json`, `api.js` and `api.test.js`).
   + **Modify the file [`api.js`](api.js):**
     + Add a new endpoint: `GET /cart/:id`.
