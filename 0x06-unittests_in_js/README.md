@@ -15,7 +15,7 @@ This project contains tasks for learning to create unittests in NodeJS.
 
 ## Tasks To Complete
 
-+ [ ] 0. **Basic test with Mocha and Node assertion library**
++ [x] 0. **Basic test with Mocha and Node assertion library**
   + **Install Mocha using npm:**
     + Set up a scripts in your [`package.json`](package.json) to quickly run Mocha using `npm test`.
     + You have to use `assert`.
