@@ -291,7 +291,7 @@ This project contains tasks for learning to create unittests in NodeJS.
     + Since this is an integration test, you will need to have your node server running for the test to pass.
     + You can use the module `request`.
   + **Requirements:**
-    + You should be able to run the test suite using `npm test api.test.js`.
+    + You should be able to run the test suite using `yarn test 8-api/api.test.js`.
     + Every test should pass without any warnings.
 
 + [ ] 9. **Regex integration testing**
@@ -350,7 +350,7 @@ This project contains tasks for learning to create unittests in NodeJS.
   + **Tips:**
     + You will need to add a small regex in your path to support the usecase.
   + **Requirements:**
-    + You should be able to run the test suite using `npm test api.test.js`.
+    + You should be able to run the test suite using `yarn test 9-api/api.test.js`.
     + Every test should pass without any warning.
 
 + [ ] 10. **Deep equality & Post integration testing**
@@ -387,6 +387,6 @@ This project contains tasks for learning to create unittests in NodeJS.
   + **Tips:**
     + Look at deep equality to compare objects.
   + **Requirements:**
-    + You should be able to run the test suite using `npm test api.test.js`.
+    + You should be able to run the test suite using `yarn test 10-api/api.test.js`.
     + Every test should pass without any warning.
     + Your server should not display any error.
