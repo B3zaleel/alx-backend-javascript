@@ -227,7 +227,7 @@ This project contains tasks for learning to create unittests in NodeJS.
     + You should be able to run the test suite using `npm test 7-skip.test.js`.
     + Every test should pass without any warning.
 
-+ [ ] 8. **Basic Integration testing**
++ [x] 8. **Basic Integration testing**
   + In a folder [`8-api`](8-api/) located at the root of the project directory, copy this `package.json` over:
     ```json
     {
