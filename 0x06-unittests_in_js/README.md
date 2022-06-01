@@ -63,7 +63,7 @@ This project contains tasks for learning to create unittests in NodeJS.
     bob@dylan:~$
     ```
 
-+ [ ] 1. **Combining descriptions**
++ [x] 1. **Combining descriptions**
   + **Create a new file named [`1-calcul.js`](1-calcul.js):**
     + Upgrade the function you created in the previous task ([`0-calcul.js`](0-calcul.js)).
     + Add a new argument named `type` at first argument of the function. `type` can be `SUM`, `SUBTRACT`, or `DIVIDE` (string).
