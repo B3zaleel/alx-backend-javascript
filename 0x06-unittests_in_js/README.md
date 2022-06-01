@@ -145,7 +145,7 @@ This project contains tasks for learning to create unittests in NodeJS.
     + Using stubs allows you to greatly speed up your test. When executing thousands of tests, saving a few seconds is important.
     + Using stubs allows you to control specific edge case (e.g a function throwing an error or returning a specific result like a number or a timestamp).
 
-+ [ ] 5. **Hooks**
++ [x] 5. **Hooks**
   + Hooks are useful functions that can be called before execute one or all tests in a suite.
   + **Copy the code from [`4-payment.js`](4-payment.js) into a new file [`5-payment.js`](5-payment.js): (same content/same behavior).**
   + **Create a new file [`5-payment.test.js`](5-payment.test.js):**
